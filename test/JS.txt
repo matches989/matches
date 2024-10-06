@@ -1,0 +1,46 @@
+https://summer10920.github.io/
+https://www.youtube.com/c/LokiJiang/playlists
+https://github.com/
+https://boshiamy.com/
+matches989
+史萊姆的第一個家
+
+vscode
+安裝Auto Close Tag
+安裝Auto Rename Tag
+Babel JavaScript
+cdnjs
+Git Graph
+(AI用)Codeium: AI Coding Autocomplete and Chat for Python, Javascript, Typescript,
+Fake Image Snippet Collection
+Highlight Matching Tag
+HTMLHint
+indent-rainbow (彩色文字)
+JavaScript (ES6) code snippets(好用)
+jQuery Code Snippets(可以不用灌)
+Live Server(一定要灌)
+Markdown PDF
+SCSS Everywhere
+
+consol指令
+network網頁工作
+https://emmet.io/ 指令使用
+
+++a a自行己+1，先執行
+a++ a自行己+1，後執行
+
+shift+alt+F 格式行，自動排列
+
+
+單行註解//
+多行註解
+/*
+*/
+
+
+//字串用的組合$(+)，數字才用+符號
+例如: `${c} ${d}`
+
+console.log(`${c} ${d}`); //字串用的組合(+)，數字用+
+
+it config --global user.name "Loki Jiang"
