@@ -1,0 +1,61 @@
+https://summer10920.github.io/ (老師部落格)
+https://www.youtube.com/c/LokiJiang/playlists (老師youtube)
+https://github.com/
+https://boshiamy.com/(嘸蝦米)
+matches989
+史萊姆的第一個家
+
+★html
+HTML 的註解方式為<!-- text -->
+
+★js
+vscode 安裝以下套件
+Chinese (中文)
+Auto Close Tag
+Auto Rename Tag
+Babel JavaScript
+cdnjs
+Git Graph
+(AI用)Codeium (: AI Coding Autocomplete and Chat for Python, Javascript, Typescript,)
+Fake Image Snippet Collection
+Highlight Matching Tag
+HTMLHint
+indent-rainbow (彩色文字)
+JavaScript (ES6) code snippets(好用)
+jQuery Code Snippets(可以不用灌，指令熟時再灌)
+Live Server(一定要灌)
+Markdown PDF
+SCSS Everywhere
+
+快捷鍵
+shift+alt+F 格式行，自動排列
+
+consol指令
+network網頁工作
+https://emmet.io/ 指令使用
+
+++a a自行己+1，先執行
+a++ a自行己+1，後執行
+
+單行註解//
+多行註解
+/*
+*/
+
+&& and(和)
+|| or(或)
+
+//字串用的組合$(+)，數字才用+符號
+例如: `${c} ${d}`
+
+console.log(`${c} ${d}`); //字串用的組合(+)，數字用+
+
+it config --global user.name "Loki Jiang"
+
+JS用法
+可用src="檔名" 或 src="./檔名"，若是在子目錄則用 src="./子目錄/檔名"
+相對路徑<script src="script.js">  //(src="檔名")
+絕對路徑<script src="http;//127.0.0.1:5500/script.js">  //(src="ip/檔名")
+
+英文說明
+undefin 不明確，未定義

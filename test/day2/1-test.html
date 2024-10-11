@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>while</title>
+</head>
+
+<body>
+  <script>
+    //第一段
+    //   count=69 //輸入分數 //count(數字)
+    //  if (count > 79) console.log('菁英分數');
+    //  else
+    //  if (count > 59) console.log('及格');
+    //  else console.log('不及格');
+
+    //第二段
+    const
+      height = 171, //height(身高)
+      money = 30000; //money(錢)
+    let face = 1; //face(臉型) 有東西就是true   1,2,3=>true 0=>false
+
+    //true && true && true
+    if (height > 170 && money > 10000 && face === 1) console.log('100 分');
+    else console.log('不完美');
+
+    //false || false && true
+    if (height > 170 || money > 10000 && face === 1) console.log('及格');
+    else console.log('不及格');
+
+
+    if (height > 170 || (money > 10000 && face === 1)) console.log('高帥 or 高錢');
+    else console.log('一定不高，但不知清楚外型與金錢');
+
+    //第三段
+    const aa = 5, bb = 5, cc = 5; //可於連續同型態下連續多筆宣告
+    //aa,bb,cc 都是 1=>豹子
+    //aa,bb,cc 都一樣=>通殺
+
+    if (aa == bb && aa == cc) {//已經確定3者一樣
+      if (aa == 1) console.log("豹子");
+      else console.log("通殺");
+    }
+    else if ((aa + bb + cc) > 9) {
+      console.log("大");
+    }
+    else {
+      console.log("小");
+    }
+
+  </script>
+</body>
+
+</html>
