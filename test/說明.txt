@@ -1,0 +1,8 @@
+英文說明
+"函式"(function)
+"return"(丟回)
+consol指令
+network網頁工作
+null 空值 //塞一個值為"沒有東西的物件"
+undefined(NaN) 未定義的值
+boolean布林值

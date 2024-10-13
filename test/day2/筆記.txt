@@ -1,0 +1,66 @@
+'200'!=200 true
+'200'!==200 false ，!==增加型別判斷
+
+&& and(和) 所有值都要true, 結果就是true，只要有一個false出現，結果就是false
+|| or(或) 所有值只要有一個true, 結果就是true，只要有一個true出現，結果就是true
+
+"函式"(function)
+
+function hello() {
+console.log(`hello world`);
+}
+//hello() 名為hello"函式"，透過()符號執行
+
+varHello =function hello(name) {
+console.log(`hello ${name}!!`);
+}
+//匿名函式，沒有名字的function
+
+ (function() {
+        console.log('hello world');
+      })();
+//左邊()匿名函式宣告，右邊()直接執行
+
+"return"(丟回), 執行return後，後面程式碼不會再執行(沒有意義)
+
+a=100; //臨時變數，是可以隨時刪除
+var b=200; //宣告變數，跟瀏覽器正式宣告一個變數存在
+var c; //宣告, 只是還沒定義任何值，目前讀到的值是undefined
+若某值宣告在函式裡為區間變數非全域變數
+var"宣告變數" 是可以重新被宣告，這是不太好的副作用("宣告變數"不可刪除)
+let"宣告一個變數"，且可以保護不會重新被宣告"宣告變數"不可刪除
+const"宣告一個變數"，不可變化且常駐的數。目前屬於全域常數"宣告變數"不可刪除
+
+if(true){ 
+}//不是一個函式宣告，區塊
+
+if(true){ 
+    let 1='A';  //let在區塊作用下，可獨立宣告成為{}內變數且獨自使用
+}
+
+if(true){ 
+    const 1='A';  //const在區塊作用下，可獨立宣告成為{}內常數，不會讀外面的已宣告的常數C
+}
+
+if(){  //當()為true執行此行{}
+console.log(''); 
+}else{  //當()為false執行此行{}
+console.log('');
+}
+
+if()內，不一定要boolean(布林值)，只要有值就可以當true，需謹慎使用
+
+三元運算子
+let day=n;
+let msg = day > 5?'假日':'平日';
+console.log(msg);
+
+break //中止這個switch後續工作
+------------
+迴圈
+//for 初始
+i=+ OR i++
+
+for (let i=0; i < 5; i++ ){
+console.log('hello',i);
+  }
