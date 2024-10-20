@@ -19,6 +19,32 @@
         //         if (i < 10) console.log('-------------------');
         //     }
         // }
+        //------------------------------------
+        // let rand0to15 =Math.floor(Math.random()*16);
+        // console.log(rand0to15);
+
+
+        // ex 45~80的隨機數字，一個就好
+        //ex (0+45) ~(35+45)，的隨機整數， 一個就好
+        //ex 0~35 的隨機整數，之後再加45，一個就好 
+        // let rand45to80 =Math.floor(Math.random()*36)+45;
+        // console.log(rand45to80);
+
+        // let rand45to80 = Math.random;
+        // rand45to80*36;
+        // console.log(rand45to80);
+
+
+
+        //發明一個fn 名字為rand(max,max) =>可指定參數 min ~ max 之間的隨機整數
+        //然後塞入一個到一個陣列長度10 裡面都是rand()產生的隨機整數。
+        // let rand45to80 =Math.floor(Math.random()*36+45);
+        const rand = (min, max) => {
+            let rand45to80 = Math.floor(Math.random() * (max - min + 1)) + min;
+            return rand45to80
+        }
+
+        //exam 產生 6個數字[不重複] 1~49
 
     </script>
 </body>

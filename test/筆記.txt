@@ -2,6 +2,7 @@ https://summer10920.github.io/ (老師部落格)
 https://www.youtube.com/c/LokiJiang/playlists (老師youtube)
 https://github.com/
 https://boshiamy.com/(嘸蝦米)
+https://developer.mozilla.org/zh-TW/docs/Web/JavaScript (JavaScript解釋說明指令)
 matches989
 史萊姆的第一個家
 
@@ -56,6 +57,7 @@ JS用法
 可用src="檔名" 或 src="./檔名"，若是在子目錄則用 src="./子目錄/檔名"
 相對路徑<script src="script.js">  //(src="檔名")
 絕對路徑<script src="http;//127.0.0.1:5500/script.js">  //(src="ip/檔名")
+物件object，專門拿來存資料，陣列拿來計算整理用的
 
 英文說明
 undefin 不明確，未定義
